@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components/macro";
+import BarbersTable from "./components/BarbersTable";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 
@@ -36,7 +37,7 @@ function App() {
         <Sidebar></Sidebar>
       </SidebarContainer>
       <ContentContainer>
-        <div>Main page</div>
+        <BarbersTable></BarbersTable>
       </ContentContainer>
     </AppStyled>
   );
